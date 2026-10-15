@@ -1,0 +1,9 @@
+name: ${PROJECT}
+description: ${DESCRIPTION}
+runtime: nodejs
+template:
+  description: Create an API endpoint in AWS using Lambda function and HTTP API Gateway
+  config:
+    responseMessage: 
+      description: Message returned by the API endpoint
+      default: "Hello, world!"
